@@ -1,6 +1,6 @@
 # ddh-move
 
-Consumes the output list of duplicate files from (ddh)[https://github.com/darakian/ddh] and lets you 
+Consumes the output list of duplicate files from [ddh](https://github.com/darakian/ddh) and lets you 
 do something with the duplicates. **ddh** 
 is a great tool for finding duplicate files in your directories, but it doesn't do anything with them.
 **ddh-move** allows you move the duplicates to another location (or delete them)
