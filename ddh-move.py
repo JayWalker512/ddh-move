@@ -98,7 +98,8 @@ def main(argv):
         if options['dry-run']:
             for element in lists_of_dupes:
                 keep, move = split_first_by_alpha(element)
-                print(move)
+                for file in move:
+                    print(file)
         else:
             move_dupes(lists_of_dupes, options['destination'])
 
